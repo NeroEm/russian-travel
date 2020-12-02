@@ -1,4 +1,6 @@
 .cover__title {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
     position: absolute;
     top: auto;
     bottom: 50%;
