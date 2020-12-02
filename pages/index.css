@@ -9,9 +9,8 @@
 @import url(../blocks/footer/__list/footer__list.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/header/__link/header__link.css);
+@import url(../blocks/header/__links/header__links.css);
 @import url(../blocks/header/__logo/header__logo.css);
-@import url(../blocks/header/_lang/header__link_lang_en.css);
-@import url(../blocks/header/_lang/header__link_lang_ru.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/intro/__list/intro__list.css);
 @import url(../blocks/intro/__text/intro__text.css);
@@ -30,7 +29,7 @@
 @import url(../blocks/place/__link/place__link.css);
 @import url(../blocks/place/__paragraph/place__paragraph.css);
 @import url(../blocks/place/__title/place__title.css);
-@import url(../blocks/place/__url-heading/url-heading.css);
+@import url(../blocks/place/__url-heading/place__url-heading.css);
 @import url(../blocks/place/__website/place__website.css);
 @import url(../blocks/place/place.css);
 @import url(../blocks/places/places.css);
@@ -38,5 +37,12 @@
 
 @font-face {
     font-family: Inter;
-    src: url(../fonts/Inter-3.15/Inter\ Desktop/);
+    src: url(../fonts/Inter/Inter-Regular.woff),
+         url(../fonts/Inter/Inter-Regular.woff2),
+         url(../fonts/Inter/Inter-Bold.woff),
+         url(../fonts/Inter/Inter-Bold.woff2),
+         url(../fonts/Inter/Inter-Light.woff),
+         url(../fonts/Inter/Inter-Light.woff2),
+         url(../fonts/Inter/Inter-Medium.woff),
+         url(../fonts/Inter/Inter-Medium.woff2),
 }

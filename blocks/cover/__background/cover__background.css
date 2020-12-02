@@ -1,7 +1,7 @@
 .cover__background {
     position: relative;
-    padding-top: 31.25%;
-    padding-bottom: 31.25%;
+    padding-top: 20.7%;
+    padding-bottom: 20.7%;
     background: url(../../../images/cover-trains.jpg);
     background-size: cover;
     display: flex;
@@ -36,4 +36,18 @@
     right: 0;
     bottom: 0;
     z-index: 2;
+} 
+
+@media screen and (max-width: 1025px) {
+    .cover__background {
+        padding-top: 19.04%;
+        padding-bottom: 19.04%;
+    }
+}
+
+@media screen and (max-width: 321px) {
+    .cover__background {
+        padding-top: 10.31%;
+        padding-bottom: 10.31%;
+    }
 }
