@@ -26,6 +26,5 @@
     .photo-grid {
         grid-template-columns: repeat(1, auto);
         grid-template-rows: repeat(12, auto);
-        grid-gap: 16px;
     }
 }

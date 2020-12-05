@@ -1,4 +1,5 @@
 .cover__subtitle {
+    color: rgb(255, 255, 255);
     margin: 16px 0 0 0;
     max-width: 360px;
     font-size: 18px;
@@ -8,7 +9,7 @@
     z-index: 3;
 }
 
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 500px) {
     .cover__subtitle {
         margin-top: 8px;
         max-width: 288px;

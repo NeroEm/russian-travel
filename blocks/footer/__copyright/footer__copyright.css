@@ -1,10 +1,11 @@
 .footer__copyright {
+    display: flex;
+    align-self: center;
     margin: 0 48px 0 0;
     font-size: 14px;
     font-weight: 400;
     line-height: 16px;
     text-align: right;
-    float: right;
 }
 
 @media screen and (max-width: 900px) {
@@ -13,18 +14,15 @@
     }
 }
 
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 767px) {
     .footer__copyright {
-        float: left;
-        text-align: left;
+        align-self: flex-start;
         margin-left: 24px;
     }
 }
 
 @media screen and (max-width: 321px) {
     .footer__copyright {
-        float: left;
-        text-align: left;
         margin-left: 16px;
     }
 }

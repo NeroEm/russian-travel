@@ -7,6 +7,10 @@
     grid-row-gap: 48px;
 }
 
+.place:last-child {
+    margin-bottom: 0;
+}
+
 @media screen and (max-width: 900px) {
     .place {
         margin-bottom: 73px;

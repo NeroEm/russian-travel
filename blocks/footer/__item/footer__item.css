@@ -2,7 +2,7 @@
     display: inline-block;
 }
 
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 767px) {
     .footer__item {
         margin-bottom: 32px;
     }
