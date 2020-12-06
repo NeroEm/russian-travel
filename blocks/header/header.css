@@ -1,15 +1,15 @@
 .header {
     display: flex;
     justify-content: space-between;
-    max-width: 1280px;
+    max-width: 1184px;
     padding-top: 28px;
     margin: 0 48px 56px 48px;
     color: rgb(255, 255, 255);
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1281px) {
     .header {
-        margin: 0 48px 56px 48px;
+        margin: 0 auto 56px auto;
     }
 }
 
